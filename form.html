@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+    <style>
+        *{
+            
+            text-align: left;
+            background-color: lightgoldenrodyellow;
+        }
+        nav > ul{
+            display: flex;
+        }
+        nav li{
+            list-style: none;
+            padding-right: 20px;
+        }
+        img{
+            height: 200px;
+            width: 400px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="form.html">Form</a></li>
+            </ul>
+        </nav>
+        <label for="search">
+            Search your Image Here:<input id="search" type="search" placeholder="Kung Fu Panda">
+        </label>
+        <input type="search" name="search" value="search"><br><br>
+        <img src="asset/sid-balachandran-_9a-3NO5KJE-unsplash.jpg" alt="panda"><br>
+        <a href="https://unsplash.com/">For More Click Here</a>
+    </header>
+    <main>
+       <p>Feedback Form:</p>
+      <label for="name">Name:<br>
+        <input id="name" type="text" placeholder="Your Name">
+      </label><br><br>
+      <label for="date">Date:<br>
+        <input id="date" type="date" placeholder="date">
+  </label><br>
+  <p>comment:</p>
+  <textarea rows="5" cols ="50" name="Comment"></textarea>
+    </main>
+    <footer>
+        <input type="submit" name="submit" value="submit">
+    </footer>
+    
+</body>
+</html>

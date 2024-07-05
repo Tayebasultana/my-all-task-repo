@@ -19,6 +19,11 @@ nav li{
 
 .header h2{
     font-size: 40px;
+    padding-top: 100px;
+    color: #fff;
+}
+.header p{
+    color: blueviolet;
 }
 .task{
     height: 400px;
